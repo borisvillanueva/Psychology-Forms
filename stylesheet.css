@@ -32,3 +32,14 @@ td {
 .declaration {
     text-align: justify;
 }
+
+textarea {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    height: 350px;
+    margin: 10px;
+    resize: none;
+    font-family: "roboto";
+}
