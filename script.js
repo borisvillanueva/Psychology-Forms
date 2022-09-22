@@ -61,7 +61,8 @@
 // }
 
 function displayRadioValue() {
-    document.getElementById("resultados").innerHTML = "";
+
+    document.getElementById("resultados").innerHTML = "" + "Respuesta: \n HECHOS : 2, 6 , 8, 12  \n OPINIONES: 1, 3, 4, 5, 7,9, 10, 11, 13, 14, 15 ";
     var ele = document.getElementsByTagName('input');
 
     for (i = 0; i < ele.length; i++) {
@@ -70,9 +71,8 @@ function displayRadioValue() {
 
             if (ele[i].checked) {
                 document.getElementById("resultados").innerHTML
-                    += ele[i].name + " Value: "
-                    + ele[i].value + "\n";
-
+                    += ele[i].name + " Marcaste: "
+                    + ele[i].value + "\n"
 
             }
 
